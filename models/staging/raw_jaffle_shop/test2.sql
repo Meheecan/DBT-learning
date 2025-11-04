@@ -6,6 +6,6 @@ with test AS (
 )
 SELECT 
     *,
-    price * 1000 AS refac_price
+    price * 100000 AS refac_price
 FROM 
     test
