@@ -1,0 +1,9 @@
+version: 2
+
+seeds:
+  - name: seed_products
+    description: inneholder produkter
+    materialization: table
+    config:
+      delimiter: ","
+      full_refresh: true
