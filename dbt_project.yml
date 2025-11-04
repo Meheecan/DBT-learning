@@ -40,3 +40,11 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    
+  staging:
+      +materialized: view
+      +docs:
+        node_color: "silver"
+
+      raw_jaffle_shop:
+        +schema: prod
