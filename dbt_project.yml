@@ -45,4 +45,4 @@ models:
         node_color: "silver"
 
       raw_jaffle_shop:
-        +schema: prod
+        +schema: staging_jaffle
