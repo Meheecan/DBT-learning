@@ -13,3 +13,4 @@ sources:
       - name: raw_stores
       - name: raw_supplies
       - name: raw_transactions
+      - name: raw_transactions1
