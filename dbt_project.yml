@@ -58,4 +58,7 @@ seeds:
   my_new_project:
     jaffle_shop:
       +schema: jaffle_seeds
+    
+    eksfin_example:
+      +schema: eksfin_seeds
 
