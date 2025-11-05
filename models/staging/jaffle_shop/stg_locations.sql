@@ -17,7 +17,7 @@ renamed as (
         name as location_name,
 
         ---------- numerics
-        tax_rate,
+        tax_rate*10,
 
         ---------- timestamps
         {{ dbt.date_trunc('day', 'opened_at') }} as opened_date
