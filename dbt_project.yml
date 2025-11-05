@@ -44,5 +44,18 @@ models:
       +docs:
         node_color: "silver"
 
-      raw_jaffle_shop:
+      jaffle_shop:
         +schema: staging_jaffle
+    
+    intermediate:
+      +materialized: table
+      +docs:
+        node_color: "silver"
+      
+      silver_jaffle_shop:
+        +schema: silver_jaffle
+seeds:
+  my_new_project:
+    jaffle_shop:
+      +schema: jaffle_seeds
+
