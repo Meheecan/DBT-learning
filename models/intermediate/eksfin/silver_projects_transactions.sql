@@ -5,7 +5,7 @@ link as (
     select * from {{ ref('stg_link') }}
 ),
 transformed as (
-    select * 
+    select p.*
     from 
         projects p
     inner join 
