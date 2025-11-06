@@ -1,0 +1,9 @@
+models:
+  - name: stg_eksfin_customers
+    description: Etablerer staging eksfin customers model
+    columns:
+      - name: customer_id
+        description: Unik nøkkel for hver kunde.
+        data_tests:
+          - not_null
+          - unique

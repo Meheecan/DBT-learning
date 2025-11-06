@@ -1,0 +1,9 @@
+models:
+  - name: stg_eksfin_regions
+    description: Etablerer staging eksfin region model
+    columns:
+      - name: region_id
+        description: Unik nøkkel for hver region.
+        data_tests:
+          - not_null
+          - unique

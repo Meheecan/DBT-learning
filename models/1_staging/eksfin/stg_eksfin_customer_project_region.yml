@@ -1,0 +1,9 @@
+models:
+  - name: stg_eksfin_customer_project_region
+    description: Etablerer staging eksfin link mellom customer, project og region
+    columns:
+      - name: link_id
+        description: Unik nøkkel for hver link.
+        data_tests:
+          - not_null
+          - unique
