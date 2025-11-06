@@ -1,5 +1,28 @@
 Welcome to your new dbt project!
 
+
+**Solution information**
+
+Name: Project Name
+
+Owner: Rakul
+
+Company: Rakul
+
+Developed by: Rakul
+
+Continued Service by: Rakul
+
+
+**Solution description:**
+
+This solution contains the economy data for (company).
+
+Based on this model reports and analytics can be created.
+Date: 2024-11-06
+
+
+
 ### Using the starter project
 
 Try running the following commands:
