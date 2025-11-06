@@ -1,7 +1,7 @@
 version: 2
- 
+
 sources:
-  - name: raw_jaffle_shop
+  - name: raw
     database: jaffle_shop
     schema: raw
     tables:
@@ -13,3 +13,8 @@ sources:
       - name: raw_stores
       - name: raw_supplies
       - name: raw_transactions
+      - name: sc_raw_customer_project_region
+      - name: sc_raw_customers
+      - name: sc_raw_projects
+      - name: sc_raw_regions
+      - name: sc_raw_transactions

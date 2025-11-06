@@ -1,4 +1,4 @@
-with projects as (
+{# with projects as (
     select * from {{ ref('stg_projects') }}
 ),
 link as (
@@ -14,4 +14,4 @@ transformed as (
         p.project_id =  l.project_id
 
 )
-select * from transformed
+select * from transformed #}
