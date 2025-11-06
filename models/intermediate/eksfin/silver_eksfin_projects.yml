@@ -1,0 +1,9 @@
+models:
+  - name: silver_eksfin_projects
+    description: Prosjekt data
+    columns:
+      - name: project_id
+        description: The unique key for each customer.
+        data_tests:
+          - not_null
+          - unique
