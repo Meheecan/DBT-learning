@@ -7,8 +7,8 @@ transformed as (
         --t.transaction_id,
         t.customer_id,
         t.project_id,
-        sum(t.loan_amount_nok)  as sum_loan_amount_nok,
-        sum(t.guarantee_amount_nok)  as sum_guarantee_amount_nok,
+        t.loan_amount_nok  as loan_amount_nok,
+        t.guarantee_amount_nok  as guarantee_amount_nok,
         t.currency,
         t.transaction_date,
         t.transaction_status
@@ -21,11 +21,11 @@ transformed as (
         --t.customer_industry
     from 
         transactions t
-    group by 
-        t.customer_id,
-        t.project_id,
-        t.currency,
-        t.transaction_date,
-        t.transaction_status
+    --group by 
+    --    t.customer_id,
+    --   t.project_id,
+    --   t.currency,
+    --  t.transaction_date,
+    --   t.transaction_status
 )
 select * from transformed
