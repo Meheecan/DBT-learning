@@ -1,0 +1,9 @@
+models:
+  - name: stg_eksfin_project
+    description: Etablerer staging eksfin projekt model
+    columns:
+      - name: project_id
+        description: Unik nøkkel for hvert prosekt.
+        data_tests:
+          - not_null
+          - unique

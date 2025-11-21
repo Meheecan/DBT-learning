@@ -1,0 +1,9 @@
+models:
+  - name: stg_eksfin_transations
+    description: Etablerer staging eksfin transaksjon model
+    columns:
+      - name: transaction_id
+        description: Unik nøkkel for hver transaksjon.
+        data_tests:
+          - not_null
+          - unique
